@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jing Li — Bookkeeping & Consulting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img src="logo.png" alt="626 Financial & Property Group Logo" style="height:100px; width:auto; border-radius:0; background:transparent;" />
+        <span>
+          <span data-i18n="brand_name">Jing Li</span>
+          <small data-i18n="brand_subtitle">Bookkeeping &amp; Consulting</small>
+        </span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#process" data-i18n="nav_process">Process</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="lang-toggle">
+        <button type="button" onclick="setLanguage('en')">EN</button>
+        <button type="button" onclick="setLanguage('zh')">中文</button>
+      </div>
+
+      <a href="#contact" class="nav-cta" data-i18n="nav_cta">Book a Consultation</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <img src="logo.png" alt="626 Financial & Property Group Logo" style="height:100px; margin-bottom:1rem; border-radius:0; background:transparent;" />
+          
+          <h1 data-i18n="hero_title">Clean books. Clear numbers. More peace of mind.</h1>
+          <p data-i18n="hero_desc">
+            I help clients stay organized, understand their financial picture, and make better decisions with calm, dependable bookkeeping support.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn" data-i18n="hero_btn_primary">Get Started</a>
+            <a href="#services" class="btn-secondary" data-i18n="hero_btn_secondary">See Services</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong data-i18n="hero_stat_1_title">Monthly</strong>
+              <span data-i18n="hero_stat_1_text">Bookkeeping support</span>
+            </div>
+            <div class="stat">
+              <strong data-i18n="hero_stat_2_title">Clear</strong>
+              <span data-i18n="hero_stat_2_text">Financial reporting</span>
+            </div>
+            <div class="stat">
+              <strong data-i18n="hero_stat_3_title">Personal</strong>
+              <span data-i18n="hero_stat_3_text">Client-first guidance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card-wrap">
+          <div class="hero-card">
+            <div class="summary-panel">
+              <span class="label" data-i18n="summary_label">Financial Snapshot</span>
+              <h3 data-i18n="summary_title">Know where your money stands</h3>
+              <p data-i18n="summary_desc">Simple, organized bookkeeping that helps you feel more in control and less overwhelmed.</p>
+            </div>
+
+            <div class="mini-grid">
+              <div class="mini-card">
+                <span class="label" data-i18n="mini_1_label">Focus</span>
+                <strong data-i18n="mini_1_title">Accuracy</strong>
+                <span data-i18n="mini_1_text">Clean records you can rely on</span>
+              </div>
+              <div class="mini-card">
+                <span class="label" data-i18n="mini_2_label">Style</span>
+                <strong data-i18n="mini_2_title">Clarity</strong>
+                <span data-i18n="mini_2_text">Easy-to-understand guidance</span>
+              </div>
+            </div>
+
+            <div class="checklist">
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <strong data-i18n="check_1_title">Stay organized year-round</strong>
+                  <p data-i18n="check_1_text">Keep your books updated instead of catching up at the last minute.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <strong data-i18n="check_2_title">Understand your numbers</strong>
+                  <p data-i18n="check_2_text">See what matters most with reports and guidance in plain language.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <div class="check-icon">✓</div>
+                <div>
+                  <strong data-i18n="check_3_title">Make confident decisions</strong>
+                  <p data-i18n="check_3_text">Move forward with a clearer view of your business and finances.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container trust-bar">
+        <div class="trust-item">
+          <strong data-i18n="trust_1_title">Reliable</strong>
+          <span data-i18n="trust_1_text">Consistent follow-through</span>
+        </div>
+        <div class="trust-item">
+          <strong data-i18n="trust_2_title">Responsive</strong>
+          <span data-i18n="trust_2_text">Clear communication</span>
+        </div>
+        <div class="trust-item">
+          <strong data-i18n="trust_3_title">Detailed</strong>
+          <span data-i18n="trust_3_text">Careful, organized records</span>
+        </div>
+        <div class="trust-item">
+          <strong data-i18n="trust_4_title">Supportive</strong>
+          <span data-i18n="trust_4_text">Personalized service</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-i18n="services_heading">Bookkeeping support built around clarity and trust</h2>
+          <p data-i18n="services_desc">
+            Whether you need ongoing bookkeeping help or a cleaner view of your finances, I provide straightforward support tailored to your needs.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="card">
+            <div class="icon-box">01</div>
+            <h3 data-i18n="service_1_title">Monthly Bookkeeping</h3>
+            <p data-i18n="service_1_desc">Keep your records current, organized, and ready when you need them.</p>
+            <ul>
+              <li data-i18n="service_1_li_1">Transaction categorization</li>
+              <li data-i18n="service_1_li_2">Account reconciliation</li>
+              <li data-i18n="service_1_li_3">Monthly financial summaries</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon-box">02</div>
+            <h3 data-i18n="service_2_title">Financial Organization</h3>
+            <p data-i18n="service_2_desc">Get your books cleaned up and structured so everything is easier to manage.</p>
+            <ul>
+              <li data-i18n="service_2_li_1">Catch-up bookkeeping</li>
+              <li data-i18n="service_2_li_2">Expense and income review</li>
+              <li data-i18n="service_2_li_3">Record organization support</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon-box">03</div>
+            <h3 data-i18n="service_3_title">Guidance &amp; Review</h3>
+            <p data-i18n="service_3_desc">Understand your numbers better and get help planning your next steps.</p>
+            <ul>
+              <li data-i18n="service_3_li_1">Simple report walkthroughs</li>
+              <li data-i18n="service_3_li_2">Budget awareness support</li>
+              <li data-i18n="service_3_li_3">Business decision insight</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-i18n="reasons_heading">Professional help without the stress or confusion</h2>
+          <p data-i18n="reasons_desc">
+            My approach is steady, personal, and focused on making finances feel easier to understand.
+          </p>
+        </div>
+
+        <div class="reasons-grid">
+          <article class="card">
+            <div class="icon-box">A</div>
+            <h3 data-i18n="reason_1_title">Dependable communication</h3>
+            <p data-i18n="reason_1_desc">You will always know where things stand, what is being handled, and what comes next.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon-box">B</div>
+            <h3 data-i18n="reason_2_title">Personalized support</h3>
+            <p data-i18n="reason_2_desc">No one-size-fits-all process. Your bookkeeping support is shaped around your situation.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon-box">C</div>
+            <h3 data-i18n="reason_3_title">Simple explanations</h3>
+            <p data-i18n="reason_3_desc">I help break down your numbers into clear, useful information you can actually use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="container about-wrap">
+        <div class="about-panel">
+          <h2 data-i18n="about_heading">Helping you feel more organized and financially confident</h2>
+          <p data-i18n="about_p1">
+            I work with individuals and small businesses who want cleaner books, clearer records, and more confidence in their numbers.
+          </p>
+          <p data-i18n="about_p2">
+            Whether you are trying to stay on top of monthly bookkeeping, catch up on past records, or just understand your finances better, I bring a calm and reliable approach to the process.
+          </p>
+
+          <div class="about-list">
+            <div class="item">
+              <span class="dot"></span>
+              <div>
+                <strong data-i18n="about_item_1_title">Clear communication</strong>
+                <p data-i18n="about_item_1_desc">Easy explanations and honest updates throughout the process.</p>
+              </div>
+            </div>
+            <div class="item">
+              <span class="dot"></span>
+              <div>
+                <strong data-i18n="about_item_2_title">Organized systems</strong>
+                <p data-i18n="about_item_2_desc">Support that helps reduce stress and improve day-to-day visibility.</p>
+              </div>
+            </div>
+            <div class="item">
+              <span class="dot"></span>
+              <div>
+                <strong data-i18n="about_item_3_title">Client-centered service</strong>
+                <p data-i18n="about_item_3_desc">Practical help tailored to your goals, workflow, and comfort level.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <div class="feature-panel">
+            <h3 data-i18n="feature_title">Best fit for</h3>
+            <p data-i18n="feature_desc">Individuals, freelancers, and small business owners who want dependable bookkeeping support and a better understanding of their finances.</p>
+            <div class="feature-tags">
+              <span data-i18n="feature_tag_1">Small businesses</span>
+              <span data-i18n="feature_tag_2">Freelancers</span>
+              <span data-i18n="feature_tag_3">Independent professionals</span>
+              <span data-i18n="feature_tag_4">Growing teams</span>
+            </div>
+          </div>
+
+          <div class="testimonial about-panel testimonial">
+            <p data-i18n="testimonial_text">“Professional, organized, and easy to work with. I felt much more confident once when Jing clearly laided everything out.”</p>
+            <div class="meta" data-i18n="testimonial_name">Paul Wrightsman</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-i18n="process_heading">A simple process from first conversation to ongoing support</h2>
+          <p data-i18n="process_desc">
+            The goal is to make getting help feel straightforward, organized, and comfortable from the start.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="card step-card">
+            <div class="step-number">1</div>
+            <h3 data-i18n="step_1_title">Initial conversation</h3>
+            <p data-i18n="step_1_desc">We talk about your needs, where things stand now, and what kind of support would help most.</p>
+          </article>
+
+          <article class="card step-card">
+            <div class="step-number">2</div>
+            <h3 data-i18n="step_2_title">Review and setup</h3>
+            <p data-i18n="step_2_desc">I review your current records and help create a cleaner, more organized bookkeeping process.</p>
+          </article>
+
+          <article class="card step-card">
+            <div class="step-number">3</div>
+            <h3 data-i18n="step_3_title">Ongoing support</h3>
+            <p data-i18n="step_3_desc">You receive steady bookkeeping help, clear updates, and better visibility into your finances.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-panel">
+          <div class="eyebrow" style="background: rgba(255,255,255,0.12); color: white; border-color: rgba(255,255,255,0.16); box-shadow: none;" data-i18n="contact_eyebrow">Contact</div>
+          <h2 data-i18n="contact_heading">Let’s make your bookkeeping feel easier</h2>
+          <p data-i18n="contact_desc">
+            Ready to work together or have a few questions first? Fill out the form and your message can go straight to Jing Li.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-row">
+              <div>📧</div>
+              <div>
+                <strong data-i18n="contact_email_label">Email</strong>
+                <a href="mailto:626Jli@gmail.com">626Jli@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div>📍</div>
+              <div>
+                <strong data-i18n="contact_serving_label">Serving</strong>
+                <span data-i18n="contact_serving_text">Individuals and small businesses</span>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div>⏰</div>
+              <div>
+                <strong data-i18n="contact_response_label">Response time</strong>
+                <span data-i18n="contact_response_text">Typically within 1–2 business days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h3 data-i18n="form_heading">Send a message</h3>
+          <p data-i18n="form_desc">Fill out the form below and I’ll get back to you as soon as possible.</p>
+
+          <form class="contact-form" action="https://formspree.io/f/mzdjwlwy" method="POST">
+            <div class="form-row">
+              <div class="field">
+                <label for="first-name"> <span data-i18n="form_first_name">First name</span> <span class="required-star">*</span> </label>
+                <input id="first-name" name="first_name" type="text" required />
+              </div>
+              <div class="field">
+                <label for="last-name"><span data-i18n="form_last_name">Last name</span> <span class="required-star">*</span></label>
+                <input id="last-name" name="last_name" type="text" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="company" data-i18n="form_company">Company Name</label>
+              <input id="company" name="company" type="text" />
+            </div>
+
+            <div class="field">
+              <label for="email"><span data-i18n="form_email">Email</span> <span class="required-star">*</span></label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="field">
+              <label for="phone" data-i18n="form_phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+
+            <div class="field">
+              <label for="message"><span data-i18n="form_message">Message</span> <span class="required-star">*</span></label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <input type="hidden" name="_subject" value="New website inquiry for Jing Li" />
+
+            <button type="submit" class="btn" data-i18n="form_submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span data-i18n="footer_text">© 2026 Jing Li — Bookkeeping &amp; Consulting</span>
+      <img src="logo.png" alt="626 Financial & Property Group Logo" style="height:100px; width:auto; border-radius:0; background:transparent;" />
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      en: {
+        brand_name: "Jing Li",
+        brand_subtitle: "Bookkeeping & Consulting",
+        nav_services: "Services",
+        nav_about: "About",
+        nav_process: "Process",
+        nav_contact: "Contact",
+        nav_cta: "Book a Consultation",
+
+        hero_title: "Clean books. Clear numbers. More peace of mind.",
+        hero_desc: "I help clients stay organized, understand their financial picture, and make better decisions with calm, dependable bookkeeping support.",
+        hero_btn_primary: "Get Started",
+        hero_btn_secondary: "See Services",
+        hero_stat_1_title: "Monthly",
+        hero_stat_1_text: "Bookkeeping support",
+        hero_stat_2_title: "Clear",
+        hero_stat_2_text: "Financial reporting",
+        hero_stat_3_title: "Personal",
+        hero_stat_3_text: "Client-first guidance",
+
+        summary_label: "Financial Snapshot",
+        summary_title: "Know where your money stands",
+        summary_desc: "Simple, organized bookkeeping that helps you feel more in control and less overwhelmed.",
+
+        mini_1_label: "Focus",
+        mini_1_title: "Accuracy",
+        mini_1_text: "Clean records you can rely on",
+        mini_2_label: "Style",
+        mini_2_title: "Clarity",
+        mini_2_text: "Easy-to-understand guidance",
+
+        check_1_title: "Stay organized year-round",
+        check_1_text: "Keep your books updated instead of catching up at the last minute.",
+        check_2_title: "Understand your numbers",
+        check_2_text: "See what matters most with reports and guidance in plain language.",
+        check_3_title: "Make confident decisions",
+        check_3_text: "Move forward with a clearer view of your business and finances.",
+
+        trust_1_title: "Reliable",
+        trust_1_text: "Consistent follow-through",
+        trust_2_title: "Responsive",
+        trust_2_text: "Clear communication",
+        trust_3_title: "Detailed",
+        trust_3_text: "Careful, organized records",
+        trust_4_title: "Supportive",
+        trust_4_text: "Personalized service",
+
+        services_heading: "Bookkeeping support built around clarity and trust",
+        services_desc: "Whether you need ongoing bookkeeping help or a cleaner view of your finances, I provide straightforward support tailored to your needs.",
+
+        service_1_title: "Monthly Bookkeeping",
+        service_1_desc: "Keep your records current, organized, and ready when you need them.",
+        service_1_li_1: "Transaction categorization",
+        service_1_li_2: "Account reconciliation",
+        service_1_li_3: "Monthly financial summaries",
+
+        service_2_title: "Financial Organization",
+        service_2_desc: "Get your books cleaned up and structured so everything is easier to manage.",
+        service_2_li_1: "Catch-up bookkeeping",
+        service_2_li_2: "Expense and income review",
+        service_2_li_3: "Record organization support",
+
+        service_3_title: "Guidance & Review",
+        service_3_desc: "Understand your numbers better and get help planning your next steps.",
+        service_3_li_1: "Simple report walkthroughs",
+        service_3_li_2: "Budget awareness support",
+        service_3_li_3: "Business decision insight",
+
+        reasons_heading: "Professional help without the stress or confusion",
+        reasons_desc: "My approach is steady, personal, and focused on making finances feel easier to understand.",
+
+        reason_1_title: "Dependable communication",
+        reason_1_desc: "You will always know where things stand, what is being handled, and what comes next.",
+        reason_2_title: "Personalized support",
+        reason_2_desc: "No one-size-fits-all process. Your bookkeeping support is shaped around your situation.",
+        reason_3_title: "Simple explanations",
+        reason_3_desc: "I help break down your numbers into clear, useful information you can actually use.",
+
+        about_heading: "Helping you feel more organized and financially confident",
+        about_p1: "I work with individuals and small businesses who want cleaner books, clearer records, and more confidence in their numbers.",
+        about_p2: "Whether you are trying to stay on top of monthly bookkeeping, catch up on past records, or just understand your finances better, I bring a calm and reliable approach to the process.",
+
+        about_item_1_title: "Clear communication",
+        about_item_1_desc: "Easy explanations and honest updates throughout the process.",
+        about_item_2_title: "Organized systems",
+        about_item_2_desc: "Support that helps reduce stress and improve day-to-day visibility.",
+        about_item_3_title: "Client-centered service",
+        about_item_3_desc: "Practical help tailored to your goals, workflow, and comfort level.",
+
+        feature_title: "Best fit for",
+        feature_desc: "Individuals, freelancers, and small business owners who want dependable bookkeeping support and a better understanding of their finances.",
+        feature_tag_1: "Small businesses",
+        feature_tag_2: "Freelancers",
+        feature_tag_3: "Independent professionals",
+        feature_tag_4: "Growing teams",
+
+        testimonial_text: "“Professional, organized, and easy to work with. I felt much more confident once when Jing clearly laided everything out.”",
+        testimonial_name: "Paul Wrightsman",
+
+        process_heading: "A simple process from first conversation to ongoing support",
+        process_desc: "The goal is to make getting help feel straightforward, organized, and comfortable from the start.",
+        step_1_title: "Initial conversation",
+        step_1_desc: "We talk about your needs, where things stand now, and what kind of support would help most.",
+        step_2_title: "Review and setup",
+        step_2_desc: "I review your current records and help create a cleaner, more organized bookkeeping process.",
+        step_3_title: "Ongoing support",
+        step_3_desc: "You receive steady bookkeeping help, clear updates, and better visibility into your finances.",
+
+        contact_eyebrow: "Contact",
+        contact_heading: "Let’s make your bookkeeping feel easier",
+        contact_desc: "Ready to work together or have a few questions first? Fill out the form and your message can go straight to Jing Li.",
+        contact_email_label: "Email",
+        contact_serving_label: "Serving",
+        contact_serving_text: "Individuals and small businesses",
+        contact_response_label: "Response time",
+        contact_response_text: "Typically within 1–2 business days",
+
+        form_heading: "Send a message",
+        form_desc: "Fill out the form below and I’ll get back to you as soon as possible.",
+        form_first_name: "First name",
+        form_last_name: "Last name",
+        form_company: "Company Name",
+        form_email: "Email",
+        form_phone: "Phone number",
+        form_message: "Message",
+        form_submit: "Send Message",
+
+        footer_text: "© 2026 Jing Li — Bookkeeping & Consulting"
+      },
+
+      zh: {
+        brand_name: "Jing Li",
+        brand_subtitle: "簿记与咨询服务",
+        nav_services: "服务",
+        nav_about: "关于",
+        nav_process: "流程",
+        nav_contact: "联系",
+        nav_cta: "预约咨询",
+
+        hero_title: "清晰账目，明确数据，让您更安心。",
+        hero_desc: "我帮助客户保持财务整洁，了解自己的财务状况，并通过冷静、可靠的簿记支持做出更好的决策。",
+        hero_btn_primary: "立即开始",
+        hero_btn_secondary: "查看服务",
+        hero_stat_1_title: "每月",
+        hero_stat_1_text: "簿记支持",
+        hero_stat_2_title: "清晰",
+        hero_stat_2_text: "财务报告",
+        hero_stat_3_title: "贴心",
+        hero_stat_3_text: "以客户为先的服务",
+
+        summary_label: "财务概览",
+        summary_title: "清楚了解您的资金状况",
+        summary_desc: "简单、有条理的簿记服务，帮助您更有掌控感，不再手忙脚乱。",
+
+        mini_1_label: "重点",
+        mini_1_title: "准确",
+        mini_1_text: "值得信赖的清晰记录",
+        mini_2_label: "风格",
+        mini_2_title: "明了",
+        mini_2_text: "简单易懂的指导",
+
+        check_1_title: "全年保持井井有条",
+        check_1_text: "及时更新账目，而不是等到最后一刻才补做。",
+        check_2_title: "看懂您的数字",
+        check_2_text: "用简单明了的报告和说明，帮助您看清最重要的信息。",
+        check_3_title: "更有信心地做决定",
+        check_3_text: "更清楚地了解您的业务和财务状况，安心向前迈进。",
+
+        trust_1_title: "可靠",
+        trust_1_text: "始终如一地跟进",
+        trust_2_title: "及时",
+        trust_2_text: "沟通清楚",
+        trust_3_title: "细致",
+        trust_3_text: "谨慎且有条理的记录",
+        trust_4_title: "支持",
+        trust_4_text: "个性化服务",
+
+        services_heading: "以清晰和信任为核心的簿记支持",
+        services_desc: "无论您需要长期簿记帮助，还是想更清楚地了解自己的财务状况，我都会根据您的需要提供直接、实用的支持。",
+
+        service_1_title: "每月簿记",
+        service_1_desc: "让您的记录保持最新、整洁，并在需要时随时可用。",
+        service_1_li_1: "交易分类",
+        service_1_li_2: "账户对账",
+        service_1_li_3: "每月财务总结",
+
+        service_2_title: "财务整理",
+        service_2_desc: "帮助您清理并整理账目，让一切更容易管理。",
+        service_2_li_1: "补做账务",
+        service_2_li_2: "支出和收入审查",
+        service_2_li_3: "记录整理支持",
+
+        service_3_title: "指导与审核",
+        service_3_desc: "帮助您更好地理解财务数据，并规划下一步。",
+        service_3_li_1: "简明报表讲解",
+        service_3_li_2: "预算意识支持",
+        service_3_li_3: "业务决策建议",
+
+        reasons_heading: "专业帮助，不再有压力和困惑",
+        reasons_desc: "我的方式稳定、贴心，专注于让财务问题变得更容易理解。",
+
+        reason_1_title: "可靠沟通",
+        reason_1_desc: "您会始终知道目前进展如何、正在处理什么，以及下一步是什么。",
+        reason_2_title: "个性化支持",
+        reason_2_desc: "不是千篇一律的流程，而是根据您的实际情况提供簿记支持。",
+        reason_3_title: "简单解释",
+        reason_3_desc: "我会把复杂的数字拆解成清楚、实用、真正能帮助您的信息。",
+
+        about_heading: "帮助您变得更有条理，也更有财务信心",
+        about_p1: "我为个人和小型企业提供服务，帮助他们拥有更整洁的账目、更清楚的记录，以及对自己财务数据更大的信心。",
+        about_p2: "无论您是想跟上每月簿记进度、补齐过去的记录，还是只是想更了解自己的财务状况，我都会以冷静、可靠的方式为您提供帮助。",
+
+        about_item_1_title: "清晰沟通",
+        about_item_1_desc: "整个过程中提供简单说明和诚实更新。",
+        about_item_2_title: "有条理的系统",
+        about_item_2_desc: "帮助您减轻压力，并提升日常财务可见度。",
+        about_item_3_title: "以客户为中心的服务",
+        about_item_3_desc: "根据您的目标、工作流程和舒适度提供实用帮助。",
+
+        feature_title: "最适合",
+        feature_desc: "适合个人、自由职业者和小企业主，他们希望获得可靠的簿记支持，并更好地了解自己的财务状况。",
+        feature_tag_1: "小型企业",
+        feature_tag_2: "自由职业者",
+        feature_tag_3: "独立专业人士",
+        feature_tag_4: "成长中的团队",
+
+        testimonial_text: "“专业、有条理，而且合作起来很轻松。Jing 清楚地把一切安排好之后，我感觉安心多了。”",
+        testimonial_name: "Paul Wrightsman",
+
+        process_heading: "从第一次沟通到长期支持，流程简单清楚",
+        process_desc: "目标是从一开始就让整个求助过程变得直接、有条理、让人安心。",
+
+        step_1_title: "初步沟通",
+        step_1_desc: "我们会讨论您的需求、目前的情况，以及哪种支持最适合您。",
+        step_2_title: "审核与建立流程",
+        step_2_desc: "我会审核您现有的记录，并帮助建立更清晰、更有条理的簿记流程。",
+        step_3_title: "持续支持",
+        step_3_desc: "您将获得稳定的簿记帮助、清楚的更新，以及对财务状况更好的掌握。",
+
+        contact_eyebrow: "联系",
+        contact_heading: "让您的簿记工作变得更轻松",
+        contact_desc: "如果您准备开始合作，或者想先问几个问题，请填写表格，您的信息会直接发送给 Jing Li。",
+        contact_email_label: "电子邮件",
+        contact_serving_label: "服务对象",
+        contact_serving_text: "个人与小型企业",
+        contact_response_label: "回复时间",
+        contact_response_text: "通常在 1–2 个工作日内回复",
+
+        form_heading: "发送信息",
+        form_desc: "请填写下列表格，我会尽快回复您。",
+        form_first_name: "名字",
+        form_last_name: "姓氏",
+        form_company: "公司名称",
+        form_email: "电子邮件",
+        form_phone: "电话号码",
+        form_message: "留言",
+        form_submit: "发送信息",
+
+        footer_text: "© 2026 Jing Li — 簿记与咨询服务"
+      }
+    };
+
+    function setLanguage(lang) {
+      localStorage.setItem("siteLanguage", lang);
+      document.documentElement.lang = lang === "zh" ? "zh" : "en";
+
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang] && translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+    }
+
+    const savedLanguage = localStorage.getItem("siteLanguage") || "en";
+    setLanguage(savedLanguage);
+  </script>
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.15
+    });
+
+    reveals.forEach((el) => observer.observe(el));
+  </script>
+</body>
+</html>
